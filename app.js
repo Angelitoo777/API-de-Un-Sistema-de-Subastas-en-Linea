@@ -2,6 +2,7 @@ import express from 'express'
 import { sequelize } from './db/mysql.db.js'
 import cookieParser from 'cookie-parser'
 import { routesOfUser } from './routes/user.routes.js'
+import { routesOfProducts } from './routes/products.routes.js'
 
 const app = express()
 const PORT = process.env.PORT ?? 3000
@@ -14,7 +15,9 @@ try {
 
 app.use(express.json())
 app.use(cookieParser())
+
 app.use('/auth', routesOfUser)
+app.use('/api', routesOfProducts)
 
 app.get('/', (req, res) => {
   res.send('hola mundo')
