@@ -1,0 +1,31 @@
+{
+  "name": "api-de-un-sistema-de-subastas-en-linea",
+  "version": "1.0.0",
+  "description": "Una API para un sistema de subastas donde los usuarios pueden pujar por productos.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "0.10.8",
+    "bcrypt": "6.0.0",
+    "cookie-parser": "1.4.7",
+    "dotenv": "17.2.1",
+    "express": "5.1.0",
+    "jsonwebtoken": "9.0.2",
+    "mysql2": "3.14.3",
+    "sequelize": "6.37.7",
+    "zod": "4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
