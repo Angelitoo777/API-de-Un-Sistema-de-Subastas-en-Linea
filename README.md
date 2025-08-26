@@ -283,7 +283,7 @@ Ejecuta la API de un Sistema de Subastas en Línea con el siguiente comando:
 **Usando `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-❯ npm start
+❯ npm run dev
 ```
 
 ---
