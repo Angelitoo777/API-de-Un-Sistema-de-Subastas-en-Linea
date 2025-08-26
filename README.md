@@ -15,14 +15,15 @@
 <br>
 
 ## 🔗 Tabla de Contenidos
--📍 Resumen
--👾 Características
--📁 Estructura del Proyecto
--📂 Índice del Proyecto
--🚀 Empezando
--☑️ Requisitos Previos
--⚙️ Instalación
--🤖 Uso
+[📍 Visión General](#-visión-general)
+-[📍 Resumen](#-resumen)
+-[👾 Características](#-características)
+-[📁 Estructura del Proyecto](#-estructura-del-proyecto)
+-[📂 Índice del Proyecto](#-índice-del-proyecto)
+-[🚀 Empezando](#-empezando)
+ -	[☑️ Requisitos Previos](#-requisitos-previos)
+ -  [⚙️ Instalación](#-instalación)
+ -	[🤖 Uso](#-uso)
 ---
 
 ## 📍 Resumen
@@ -43,7 +44,7 @@
 
 ---
 
-## 📁 Project Structure
+## 📁 Estructura del Proyecto
 
 ```sh
 └── API-de-Un-Sistema-de-Subastas-en-Linea/
