@@ -17,7 +17,7 @@ Roles.belongsToMany(User, {
 })
 
 Products.hasMany(Auctions, {
-  foreignKey: 'products_id',
+  foreignKey: 'product_id',
   as: 'auctions'
 })
 
