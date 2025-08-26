@@ -15,7 +15,8 @@
 <br>
 
 ## 🔗 Tabla de Contenidos
-[📍 Visión General](#-visión-general)
+
+-[📍 Visión General](#-visión-general)
 -[📍 Resumen](#-resumen)
 -[👾 Características](#-características)
 -[📁 Estructura del Proyecto](#-estructura-del-proyecto)
