@@ -18,8 +18,7 @@ export const Auctions = sequelize.define('auctions', {
   },
   startingPrice: {
     type: DataTypes.FLOAT,
-    allowNull: false,
-    defaultValue: 10
+    allowNull: false
   },
   currentPrice: {
     type: DataTypes.FLOAT,
